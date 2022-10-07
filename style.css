@@ -1,3 +1,277 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+
+
+body {
+    margin: 0;
+    border: 0;
+
+}
+
+header {
+    background-image: url(pozadie.jpg);
+    padding: 200px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    
+
+}
+
+header h1{
+   color: white;
+   font-size: 70px;
+   font-family: 'IBM Plex Mono', monospace;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+
+}
+
+
+nav a:hover {
+    background-color:rgba(78, 78, 78,0.3 ) ;
+}
+
+
+
+h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 50px;
+    text-align: center;
+    color: #AFAFAF;
+
+}
+
+h3 {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #AFAFAF;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+
+}
+
+.omne {
+    font-family: 'Open Sans', sans-serif;
+    color: #A2A2A2;
+    font-size: 15px;
+    font-style: normal;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.czechitas,
+.rybackaodkaz {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+.fotoomne {
+    height: 180px;
+    float: left;
+    margin-left: 200px;
+    margin-right: 30px;
+    border-radius: 0px 0px 40px 0px;
+}
+
+.rybacka {
+    background-image: url(pozadie_rybacka.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px #A2A2A2;
+    
+}
+
+.textrybacka{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #A2A2A2;
+    font-size: 15px;
+    font-style: normal;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+}
+
+.fotorybacka img {
+    width: 20%;
+    opacity: 90%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+.fotorybacka {
+    text-align: center;
+    
+}
+
+
+
+.kempovanie {
+    background-image: url(pozadie_kempovanie.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px #A2A2A2;
+}
+
+.textkempovanie {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #A2A2A2;
+    font-size: 15px;
+    font-style: normal;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+}
+
+
+.fotokempovanie img {
+    width: 20%;
+    opacity: 90%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+.fotokempovanie {
+    text-align: center;
+}
+
+
+
+.cyklovylety {
+    background-image: url(pozadie_cyklovylety.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px #A2A2A2;
+}
+
+.textcyklovylety {
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    color: #A2A2A2;
+    font-size: 15px;
+    font-style: normal;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.fotocyklovylety img{
+    width: 20%;
+    opacity: 90%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+.fotocyklovylety{
+    text-align: center;
+}
+
+
+
+footer {
+    height: 200px;
+    background-color: #A2A2A2;
+ 
+}
+
+.boxsipka {
+  justify-content: center;
+  align-items: center;
+  display: flex;  
+  padding: 20px;
+}
+
+
+.sipka {
+    background-color: white;
+    color: #A2A2A2;
+    width: 130px;
+    height: 50px;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 1%;
+    text-decoration: none;
+    
+
+}
+
+.sipka:hover{
+    background-color: #A2A2A2
+}
+
+.sipka:hover {
+    color: black;
+}
+
+
+
+.Simona {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    color: white;
+    
+    
+}
+
+footer:hover {
+    background-color: black;
+
+}
+
+
+.boxloga {
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.logof {
+    width: 10%;
+    padding-right: 5px;
+}
+
+ 
+.logoins {
+    width: 10%;
+    padding-left: 5px;
+}
+
