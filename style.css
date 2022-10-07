@@ -39,6 +39,7 @@ nav a{
 
 nav a:hover {
     background-color:rgba(78, 78, 78,0.3 ) ;
+    border-radius: 0 20px 0 0;
 }
 
 
@@ -66,13 +67,15 @@ h3 {
     font-size: 15px;
     font-style: normal;
     text-align: justify;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 17%;
+    margin-right: 17%;
 
 }
 
 .czechitas,
-.rybackaodkaz {
+.rybackaodkaz,
+.vranovska,
+.zoo {
     font-family: 'Open Sans', sans-serif;
     color: black;
     font-size: 15px;
@@ -81,9 +84,9 @@ h3 {
 
 
 .fotoomne {
-    height: 180px;
+    height: 32vh;
     float: left;
-    margin-left: 200px;
+    margin-left: 17%;
     margin-right: 30px;
     border-radius: 0px 0px 40px 0px;
 }
@@ -108,13 +111,13 @@ h3 {
     color: #A2A2A2;
     font-size: 15px;
     font-style: normal;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 17%;
+    margin-right: 17%;
     text-align: justify;
 }
 
 .fotorybacka img {
-    width: 20%;
+    height: 38vh;
     opacity: 90%;
     margin-bottom: 50px;
     margin-top: 20px;
@@ -125,7 +128,6 @@ h3 {
     text-align: center;
     
 }
-
 
 
 .kempovanie {
@@ -147,8 +149,8 @@ h3 {
     color: #A2A2A2;
     font-size: 15px;
     font-style: normal;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 17%;
+    margin-right: 17%;
     text-align: justify;
 }
 
@@ -186,12 +188,12 @@ h3 {
     color: #A2A2A2;
     font-size: 15px;
     font-style: normal;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 17%;
+    margin-right: 17%;
 }
 
 .fotocyklovylety img{
-    width: 20%;
+    height: 44vh;
     opacity: 90%;
     margin-bottom: 50px;
     margin-top: 20px;
