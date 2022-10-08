@@ -68,16 +68,17 @@ h2 {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 50px;
     text-align: center;
-    color: #AFAFAF;
+    color: #9DCDCE;
 
 }
 
 h3 {
     font-family: 'IBM Plex Mono', monospace;
-    color: #AFAFAF;
+    color: #9DCDCE;
     font-size: 20px;
     font-style: italic;
     text-align: center;
+    margin-top: 50px;
 
 }
 
@@ -100,10 +101,22 @@ h3 {
 .arena,
 .marianske {
     font-family: 'Open Sans', sans-serif;
-    color: black;
+    color: #6C6C6C;
     font-size: 15px;
-    text-decoration: none;
+    text-decoration:underline;
+
 }
+
+.czechitas:hover,
+.rybackaodkaz:hover,
+.vranovska:hover,
+.zoo:hover,
+.arena:hover,
+.marianske:hover {
+    color: #77C1C2 ;
+}
+
+
 
 
 .fotoomne {
